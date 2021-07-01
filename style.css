@@ -61,8 +61,11 @@ h1, legend, .header-ul{
 
 /* ---- Header ---- */
 .nav{
-    background:linear-gradient(rgba(230, 102, 102, 0.5), rgb(145, 152, 229, 0.4));
+    /* background:linear-gradient(rgba(230, 102, 102, 0.5), rgb(145, 152, 229, 0.4)); */
+    background-color:white;
     padding-bottom: 20px;
+    box-shadow: 3px 3px 5px rgb(145, 152, 229, 0.4);
+    border-radius: 0 0 5px 5px ;
 }
 
 .header-ul{
@@ -294,7 +297,7 @@ input[type="submit"]:hover{
     border: none;
     padding: 1px 0;
     width: 90%;    
-    margin: 15px;
+    margin: 15px auto;
 }
 
 
