@@ -244,7 +244,7 @@ input[type="submit"]:hover{
 
 
 .image-gallery img{
-    width: 200px;
+    width: 300px;
     height: 150px;
     margin: 0 auto;
     margin-top: 20px;
@@ -257,19 +257,49 @@ input[type="submit"]:hover{
 /* ---- Footer ---- */
 
 .footer{
-    display: block;
+    border-top: grey solid 1px;
     width: 100%;
-    
+    bottom: 0;
+    position: relative;
+    background-color: rgb(235, 235, 194);
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 20px
+}
+
+
+.all-options-footer{
+    font-weight: 600;
+    margin: 5px 0 0 15px;
+}
+
+.all-options-footer li {
+    margin: 7px 0;
+    padding: 5px 0;
+}
+
+.arrow-footer-options-list{
+    float:right;
+    border: solid black 2px;
+    padding: 3px 3px;
+    border-width: 2px 0 0 2px;
+    margin-right: 10px;
+    transform: rotate(-135deg);
+}
+
+
+
+.hr-footer-between-ul{
+    background-color: rgb(195, 187, 190);
+    border: none;
+    padding: 1px 0;
+    width: 90%;    
+    margin: 15px;
 }
 
 
 .in-footer{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    bottom: 0;
-    background-color: rgb(235, 235, 194);
-    width: 100%;
+    margin: auto;
 }
 
 .in-footer li{
