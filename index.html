@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The font family of the body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <!-- The font family of the headers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- All the style of -->
+    <link rel="stylesheet" href="style.css">
+    <title>WebDev Website</title>
+</head>
+<body>
+    <!-- nav -->
+    <header>
+        <nav class="nav">
+            <ul class="header-ul">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="the-body">
+        <section class="the-about">
+            <h1>About Me:</h1>
+            <p class="my-about">Hey, my name is Daniel & I'm junior Frontend developer :)
+                I love to learn new skills & software in particular.
+                in my free time i'm learning about finance  & the genome as well.
+            </p>
+
+        </section>
+
+
+    <!-- form -->
+        <section class="form-section">
+            <form>
+                <fieldset class="field-form">
+                    <legend>Please leave your info & we will contact you!</legend>
+                    <label for="first-name">First Name:</label>
+                    <input name="name" id="first-name" type="text">
+                    <label for="last-name">Last Name:</label>
+                    <input name="last-name" id="last-name" type="text">
+                    <label for="email">Email Adress:</label>
+                    <input name="email" id="email" type="email">
+                    <input name="submit" type="submit" id="submit" placeholder="Submit">
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="image-gallery">
+                <button class="changing-image1" type="button"><i class="arrow left"></i></button>
+                <img id="default-image" src="images/ddp-EX3gFC6eP4c-unsplash.jpg" alt="theFirst">
+                <!-- <img src="images/hoodh-ahmed-GrQO3IciUTk-unsplash.jpg" alt="theFirst"> -->
+                <!-- <img src="images/sepp-rutz-tskqMngoHSA-unsplash.jpg" alt="theFirst"> -->
+                <button class="changing-image2" type="button"><i class="arrow right"></i></button>
+        </section>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <ul class="in-footer">
+            <li class="fab fa-github"></li>
+            <li class="fab fa-linkedin"></li>
+            <li class="fab fa-twitter-square"></li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/334c9e313a.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
