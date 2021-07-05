@@ -354,13 +354,158 @@ input[type="submit"]:hover{
 }
 
 
+/* Media screen changes */
+@media(min-width: 768px){
+
+    /* --- Header --- */
+
+    #the-about h1{
+        margin: 20px auto;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+
+    /* --- Form --- */
+
+    .field-form label{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    input[type="submit"]{
+        font-weight: 700;
+        font-size: 20px;
+        width: 50%;
+        border-radius: 10px;
+    }
+
+    
+    /* --- Image gallery --- */
+    .image-gallery img{
+        height: 210px;
+    }
 
 
 
 
+    /* -- Footer */
+    .all-options-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    .arrow-footer-options{
+        display: none;
+    }
+
+    .categories-under-list{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .in-footer li a{
+        font-size: 35px;
+        margin: 0 10px;
+    }
+
+}
 
 
+@media(min-width: 1100px) {
+    
+    /* --- The header --- */
 
+    .header-ul li {
+        font-size: 20px;
+    }
+    
+    /* --- The about section --- */
+
+    #the-about h1{
+        font-size: 25px;
+    }
+    
+    
+    .my-about{
+        font-size: 20px;
+    }
+
+    /* --- Image gallery --- */
+    
+    .image-gallery img{
+        height: 300px;
+    }
+
+    .arrow{
+        padding: 20px;
+    }
+
+    .image-gallery-header{
+        font-size: 25px;
+    }
+
+
+    /* --- Footer --- */
+    .footer{
+        font-size: 20px;
+    }
+
+    .categories-under-list{
+        font-size: 17px;
+    }
+
+}
+
+
+@media(min-width: 1400px){
+
+    /* --- Form --- */
+
+    .form-section{
+        margin: 50px auto;
+        width: 50%;
+        height: 700px;
+        display: flex;
+    }
+
+    #a-form{
+        height: 100%;
+        width: 90%;
+        margin: auto;
+    }
+
+    #a-form .field-form label{
+        font-size: 20px;
+    }
+
+    #a-form .field-form input{
+        padding: 15px 0;
+    }
+
+
+    .form-section #a-form .field-form legend{
+        padding-top: 50px;
+        margin: 70px auto ;
+        font-size: 20px;
+    }
+
+
+    input[type="submit"]{
+        margin-top: 90px;
+        width: 60%;
+    }
+
+    /* --- Image gallery --- */
+
+    .image-gallery .div-in-gallery img{
+        height: 500px;
+    }
+
+}
 
 
 
