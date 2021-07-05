@@ -31,4 +31,22 @@ button_two[0].addEventListener("click", event => {
 
 
 
+// The footer 
+let footer_categories = document.querySelectorAll('.list');
 
+footer_categories.forEach(item => {
+    item.addEventListener('click', event => {
+        if(item.children[1].style.display === "") {
+            item.children[1].style.display = "block";
+            item.children[0].style.transform = 'rotate(45deg)';
+        } else {
+            item.children[1].style.display = "";
+            item.children[0].style.transform = 'rotate(225deg)';
+        }
+        
+    });
+
+
+
+
+})

@@ -22,13 +22,13 @@
         <nav class="nav">
             <ul class="header-ul">
                 <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#the-about">About</a></li>
+                <li><a href="#a-form">Contact</a></li>
             </ul>
         </nav>
     </header>
     <section class="the-body">
-        <section class="the-about">
+        <section id="the-about">
             <h1>About Me:</h1>
             <p class="my-about">Hey, my name is Daniel & I'm junior Frontend developer :)
                 I love to learn new skills & software in particular.
@@ -40,7 +40,7 @@
 
     <!-- form -->
         <section class="form-section">
-            <form>
+            <form id="a-form">
                 <fieldset class="field-form">
                     <legend>Please leave your info & we will contact you!</legend>
                     <label for="first-name">First Name:</label>
@@ -69,16 +69,40 @@
     <!-- footer -->
     <footer class="footer">
         <ul class="all-options-footer">
-            <li>Categories <i class="arrow-footer-options-list"></i></li>
-            <li>About <i class="arrow-footer-options-list"></i></li>
-            <li>Support <i class="arrow-footer-options-list"></i></li>
-            <li>Community <i class="arrow-footer-options-list"></i></li>
+            <li class="list">Categories <i class="arrow-footer-options"></i>
+                <ul class="categories-under-list">
+                    <li>Graphics & Design</li>
+                    <li>Digital Marketing</li>
+                    <li>Writing & Translation</li>
+                </ul>
+            </li>
+            <li class="list">About <i class="arrow-footer-options"></i>
+                <ul class="categories-under-list">
+                    <li>Careers</li>
+                    <li>Pres & News</li>
+                    <li>Partnerships</li>
+                </ul>
+            </li>
+            <li class="list">Support <i class="arrow-footer-options"></i>
+                <ul class="categories-under-list">
+                    <li>Help & Support</li>
+                    <li>Trust & Safety</li>
+                    <li>Selling on Daniel's website</li>
+                </ul>
+            </li>
+            <li class="list">Community <i class="arrow-footer-options"></i>
+                <ul class="categories-under-list">
+                    <li>Events</li>
+                    <li>Blog</li>
+                    <li>Forum</li>
+                </ul>
+            </li>
         </ul>
         <hr class="hr-footer-between-ul">
         <ul class="in-footer">
-            <li class="fab fa-github"></li>
-            <li class="fab fa-linkedin"></li>
-            <li class="fab fa-twitter-square"></li>
+            <li><a class="fab fa-github" href="https://github.com/virusxd521"></a></li>
+            <li><a class="fab fa-linkedin" href="https://www.linkedin.com/in/daniel-benisti-a74813155/"></a></li>
+            <li><a class="fab fa-twitter-square" href="https://twitter.com/BenistiDaniel"></a></li>
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/334c9e313a.js" crossorigin="anonymous"></script>

@@ -79,6 +79,16 @@ h1, legend, .header-ul{
     padding: 5px;
 }
 
+.header-ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-ul li a:active {
+    color: none;
+}
+
+
 .header-ul li:hover{
     border-bottom: turquoise 3px solid;
     border-radius: 5px;
@@ -88,7 +98,7 @@ h1, legend, .header-ul{
 
 /* --- The body section --- */
 
-.the-body, .the-about, .field-form,.footer  {
+.the-body, #the-about, .field-form,.footer  {
     display: flex;
     flex-direction: column; 
     justify-content: center;   
@@ -103,12 +113,12 @@ h1, legend, .header-ul{
 
 /* ---- About Section ---- */
 
-.the-about{
+#the-about{
     margin-top: 20px;
 }
 
 
-.the-about > *{
+#the-about > *{
     margin: auto;
 }
 
@@ -232,6 +242,7 @@ input[type="submit"]:hover{
   .changing-image1:hover, .changing-image2:hover{
     transition: transform 1s cubic-bezier(0,-0.91,.02,.25);
     transform: scale(1.2);
+    background: none;
   }
 
 
@@ -247,7 +258,7 @@ input[type="submit"]:hover{
 
 
 .image-gallery img{
-    width: 300px;
+    width: 80%;
     height: 150px;
     margin: 0 auto;
     margin-top: 20px;
@@ -276,12 +287,17 @@ input[type="submit"]:hover{
     margin: 5px 0 0 15px;
 }
 
+.all-options-footer:hover{
+    cursor: pointer;
+}
+
+
 .all-options-footer li {
     margin: 7px 0;
     padding: 5px 0;
 }
 
-.arrow-footer-options-list{
+.arrow-footer-options{
     float:right;
     border: solid black 2px;
     padding: 3px 3px;
@@ -303,11 +319,51 @@ input[type="submit"]:hover{
 
 .in-footer{
     margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
-.in-footer li{
-    font-size: 22px;
+.in-footer li a{
+    font-size: 27px;
     margin-top: 20px;
     margin-left: 15px;
     color:rgb(143, 35, 71);
+    float: right;
+    text-decoration: none;
 }
+
+
+/* Footer List click */
+
+
+.list {
+    display: block;
+}
+
+.categories-under-list{
+    font-size: 15px;
+    margin-left: 5px;
+    color: rgb(131, 131, 131);
+    display: none;
+}
+
+.categories-under-list li:hover{
+    display: inline-block;
+    border-bottom: 2px solid rgb(172, 172, 172);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
